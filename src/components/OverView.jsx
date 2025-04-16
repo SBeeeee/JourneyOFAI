@@ -9,24 +9,25 @@ const OverView = () => {
   useGSAP(() => {
     gsap.from(".card", {
       opacity: 0,
-      x: -200, // Move cards from left
-      stagger: 1, // Stagger animation for each card
+      x: -200, 
+      stagger: 1, 
       duration: 2,
       scrollTrigger: {
-        trigger: ".cards-container", // Pin the cards container
+        trigger: ".cards-container", 
         scroller: "body",
-        start: "top 60%",
+        start: "top 70%",
         end: "top 30%",
-        scrub:3, // Smooth scroll effect
-        pin: true, // Pin the container while scrolling
-        markers: true,
+        scrub:5, 
+        pin: true, 
       },
     });
   }, []);
 
   return (
     <div className="overflow-x-hidden ">
+        
       <div className="cards-container flex space-x-8  p-10">
+        
         {[1, 2, 3, 4, 5].map((num) => (
           <div
             key={num}

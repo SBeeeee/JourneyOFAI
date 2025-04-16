@@ -45,6 +45,11 @@ const HeroSection = () => {
     gsap.from('span.a', { y:50,opacity: 0, duration: 1, stagger: 0.15 });
     gsap.from('span.b', { y:50,opacity: 0, duration: 1, stagger: -0.15 });
 
+    gsap.from(arrowref.current,{
+      scale:0,
+      duration:1,
+      delay:6
+    })
     gsap.to(arrowref.current, {
       y: 20,
       repeat: -1,

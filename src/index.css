@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.glow {
+  filter: drop-shadow(0 0 5px #00ffff)
+          drop-shadow(0 0 10px #00ffff)
+          drop-shadow(0 0 20px #00ffff);
+}
+body{
+  background-color: black;
+  color:#00ffff;
+}

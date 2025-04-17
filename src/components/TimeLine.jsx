@@ -15,7 +15,7 @@ const TimeLine = () => {
             scrollTrigger:{
                     trigger:".start",
                     scroller:"body",
-                    markers:true,
+                    markers:false,
                     end:"top 40%",
                     scrub:true,
             }
@@ -29,7 +29,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card2",{
@@ -41,7 +41,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card3",{
@@ -53,7 +53,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card4",{
@@ -65,7 +65,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card5",{
@@ -77,7 +77,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card6",{
@@ -89,7 +89,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card7",{
@@ -101,7 +101,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card8",{
@@ -113,7 +113,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card9",{
@@ -125,7 +125,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
         gsap.from(".card10",{
@@ -137,7 +137,7 @@ const TimeLine = () => {
                 scroller:"body",
                 scrub:true,
                 end:"top 36%",
-                markers:true,
+                markers:false,
             }
         })
     })

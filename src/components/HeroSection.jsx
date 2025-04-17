@@ -48,7 +48,7 @@ const HeroSection = () => {
     gsap.from(arrowref.current,{
       scale:0,
       duration:1,
-      delay:6
+      delay:4.5
     })
     gsap.to(arrowref.current, {
       y: 20,

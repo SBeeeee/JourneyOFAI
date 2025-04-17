@@ -10,7 +10,7 @@ const Navbar = () => {
             y:-100,
             duration:2,
             delay:2,
-            stagger:1
+            stagger:0.5
         })
     })
   return (

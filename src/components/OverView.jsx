@@ -17,8 +17,7 @@ const OverView = () => {
         scroller: "body",
         start: "top 70%",
         end: "top 30%",
-        scrub: 5, 
-        
+        scrub: 1, 
       },
     });
   }, []);

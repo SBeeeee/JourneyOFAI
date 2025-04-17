@@ -22,7 +22,7 @@ const Navbar = () => {
         })
     })
   return (
-    <div className="fixed top-0 h-12 w-full bg-white/20 shadow-2xl z-12 flex justify-around nav">
+    <div className="fixed top-0 h-12 w-full bg-gradient-to-b from-[#151515] to-[#1e1e1e] shadow-2xl z-12 flex justify-around nav">
       <div className="px-4 py-2 text-white pro" >THE AI PROSHOW</div>
       <div className="px-4 py-2 text-white pro">TIMELINE</div>
       <div className="px-4 py-2 text-white pro">OVERVIEW</div>

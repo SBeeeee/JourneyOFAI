@@ -12,8 +12,7 @@ const EnvironmentalImpactSection = () => {
     const tl=gsap.timeline({
         scrollTrigger:{
             trigger:sectionRef.current,
-            start:"top 0%",
-            scrub:1,
+            start:"top 20%",
             markers:true,
             end:"top 100%",
         }
@@ -21,17 +20,30 @@ const EnvironmentalImpactSection = () => {
     tl.from(".heading",{
         scale:0,
         opacity:0,
-        duration:2
+        duration:1,
+        y:200,
     })
     tl.from(".one",{
       opacity:0,
-      duration:4,
-      delay:50
+      x:500,
+     duration:1.5
     })
     tl.from(".two",{
       x:-500,
-      
+     duration:1.5,
+      opacity:0
     })
+    tl.from(".three",{
+      scale:0,
+      duration:1.5,
+      opacity:0
+  })
+  tl.from(".four",{
+    scale:2,
+    y:20,
+    duration:1.5,
+    opacity:0
+  })
  })
   return (
     <section ref={sectionRef} className="py-16 px-6">
@@ -83,7 +95,7 @@ const EnvironmentalImpactSection = () => {
         </div>
 
         {/* AI Limitation Quote */}
-        <div className="fade-in">
+        <div className="fade-in three">
           <h3 className="text-2xl font-semibold mb-2 text-white">🧠 Limitations of AI</h3>
           <p className="text-neutral-300 leading-relaxed">
             AI like ChatGPT is fundamentally a{' '}
@@ -104,7 +116,7 @@ const EnvironmentalImpactSection = () => {
         </div>
 
         {/* Ghibli-inspired Thought */}
-        <div className="fade-in">
+        <div className="fade-in four">
           <h3 className="text-2xl font-semibold mb-2 text-white">🎨 Ghibli-Inspired Reflections</h3>
           <p className="text-neutral-300 leading-relaxed">
             Like Studio Ghibli’s themes of nature and balance—tech and AI should also be aligned with sustainability.

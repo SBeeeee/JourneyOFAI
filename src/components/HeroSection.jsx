@@ -17,7 +17,7 @@ const HeroSection = () => {
     gsap.from(headref.current, {
       scale: 2,
       opacity: 0,
-      y: -100,
+      y: -200,
       duration: 3,
      
     });
@@ -33,8 +33,8 @@ const HeroSection = () => {
     });
     titleEl.innerHTML = clutter;
 
-    gsap.from('span.a', { y:50,opacity: 0, duration: 1.5, stagger: 0.15 });
-    gsap.from('span.b', { y:50,opacity: 0, duration: 1.5, stagger: -0.15 });
+    gsap.from('span.a', { y:50,opacity: 0, duration: 2.5, stagger: 0.15 });
+    gsap.from('span.b', { y:50,opacity: 0, duration: 2.5, stagger: -0.15 });
 
     gsap.from(arrowref.current,{
       scale:0,
@@ -63,13 +63,13 @@ const HeroSection = () => {
     <div className="relative h-screen overflow-hidden">
      
       <div className="flex flex-col justify-center items-center h-full gap-2 relative z-10">
-        <div ref={headref} className="font-extrabold text-9xl font-[Orbitron] text-white">
+        <div ref={headref} className="font-extrabold text-7xl mb-2 text-white" style={{ fontFamily: '"Press Start 2P", cursive' }}>
           EVOlution OF AI
         </div>
-        <div ref={titleref} className="text-6xl font-bold font-[Playfair_Display] text-white overflow-hidden">
+        <div ref={titleref} className="text-6xl font-bold font-[Orbitron] text-white overflow-hidden">
           From Logic Gates to SuperIntelligence
         </div>
-        <div ref={scrollref} className="text-4xl font-light mt-4 text-white">
+        <div ref={scrollref} className="text-4xl font-[Playfair_Display] font-light mt-4 text-white">
           Scroll To Explore
         </div>
         <div

@@ -1,12 +1,37 @@
-# React + Vite
+# ⚡ AI Odyssey — Explore, Educate, Evolve
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **AI Odyssey** — a scroll-powered, beautifully animated educational site that walks you through the evolution of Artificial Intelligence 🤖, highlights its **environmental impact**, and ends with an interactive **feedback portal**.
 
-Currently, two official plugins are available:
+> A fusion of aesthetic and purpose, powered by animation magic and a deep curiosity for what AI means to our world.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 What's Inside?
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎬 **Hero Section** — Animated titles, scroll indicator, and a futuristic vibe  
+- 🧵 **Timeline** — Scroll-driven AI evolution cards with GSAP animations  
+- 🌍 **Environmental Impact** — Dark, elegant, and informative breakdown of AI's carbon cost  
+- 💌 **Feedback Form** — Animated inputs, auto-reset, and real-time validation  
+
+---
+
+## 🧰 Tech Stack
+
+| Tech              | Purpose                            |
+|-------------------|------------------------------------|
+| **React.js**      | Frontend UI framework              |
+| **Tailwind CSS**  | Utility-first styling              |
+| **GSAP**          | Scroll-driven + element animations |
+| **React Icons**   | Iconography                        |
+| **Custom Fonts**  | `Orbitron`, `Playfair Display`, `Press Start 2P` — for that unique feel |
+| **Vite**          | Lightning-fast build tool          |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/SBeeeee/JourneyOFAI
+cd ai-timeline
+npm install
+npm run dev

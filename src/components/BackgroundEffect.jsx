@@ -7,7 +7,7 @@ const BackgroundEffect = () => {
   const colors = ['#fbbf24', '#f472b6', '#60a5fa', '#34d399', '#c084fc', '#f87171'];
 
   const [dotStyles] = useState(() =>
-    Array.from({ length: 100 }, () => ({
+    Array.from({ length: 500 }, () => ({
       top: Math.random() * 100 + '%',
       left: Math.random() * 100 + '%',
       size: Math.random() * 4 + 2 + 'px',

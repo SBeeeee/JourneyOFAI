@@ -12,9 +12,10 @@ const EnvironmentalImpactSection = () => {
     const tl=gsap.timeline({
         scrollTrigger:{
             trigger:sectionRef.current,
-            start:"top 20%",
-            markers:true,
-            end:"top 100%",
+            start: "top 30%",
+            end: "bottom 40%",
+         
+            scrub:true
         }
     })
     tl.from(".heading",{

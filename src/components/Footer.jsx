@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="relative z-10 flex flex-col items-center gap-4 text-center">
         <h2 className="text-2xl font-[Orbitron] tracking-wider">Safeguarding the Future of AI</h2>
         <p className="max-w-xl text-gray-300 text-sm">
-          Explore the evolution of artificial intelligence — from early logic circuits to superintelligence. Learn how we can ensure safety, ethics, and responsibility as AI progresses.
+          Explore the evolution of artificial intelligence — from early logic circuits to superintelligence. Learn how we can ensure safety, ethics, and responsibility as AI progresses.                      <br></br>Created by Shatadru
         </p>
         <div className="mt-4 text-xs text-gray-500">© {new Date().getFullYear()} The AI ProShow. All rights reserved.</div>
       </div>

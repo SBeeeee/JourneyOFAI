@@ -6,9 +6,9 @@ const Navbar = () => {
     const pro=useRef()
     useGSAP(()=>{
       gsap.from(".nav",{
-        scale:0.5,
+        scale:0,
         opacity:0,
-        duration:2,
+        duration:3,
         BackgroundColor:"transparent",
         delay:1,
 

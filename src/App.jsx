@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import OverView from './components/OverView'
 import Timeline from './components/TimeLine'
 import BackgroundEffect from './components/BackgroundEffect'
+import EnvironmentalImpactSection from './components/EnvironmentalImpactSection'
 
 const App = () => {
   return (
@@ -13,9 +14,8 @@ const App = () => {
       <HeroSection/>
       <OverView/>
       <Timeline/>
-      bnnnnnnnnnnnnnnnnnnnnnnnnnnn<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       
-      bnnnnnnnnnnnnnnnnnnnnnnnnnnn<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+   <EnvironmentalImpactSection/>
     </div>
   )
 }

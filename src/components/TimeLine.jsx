@@ -97,5 +97,4 @@ const TimeLine = () => {
         </div>
     );
 };
-
 export default TimeLine;

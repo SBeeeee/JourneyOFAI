@@ -23,6 +23,9 @@ const EnvironmentalImpactSection = () => {
         duration:1,
         y:200,
     })
+    tl.from(".res",{
+      opacity:0,
+    })
     tl.from(".one",{
       opacity:0,
       x:500,
@@ -51,7 +54,7 @@ const EnvironmentalImpactSection = () => {
         {/* Heading */}
         <div className="text-center space-y-2">
           <h2 className="text-3xl md:text-4xl font-bold text-white heading">🌍 The Hidden Cost of AI</h2>
-          <p className="text-lg text-neutral-400">Why responsible AI usage matters</p>
+          <p className="text-lg text-neutral-400 res">Why responsible AI usage matters</p>
         </div>
 
         {/* Water Consumption */}

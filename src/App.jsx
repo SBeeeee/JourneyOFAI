@@ -6,6 +6,7 @@ import Timeline from './components/TimeLine'
 import BackgroundEffect from './components/BackgroundEffect'
 import EnvironmentalImpactSection from './components/EnvironmentalImpactSection'
 import Footer from './components/Footer'
+import FeedBack from './components/FeedBack'
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
       <OverView/>
       <Timeline/>
    <EnvironmentalImpactSection/>
+   <FeedBack/>
     <Footer/>
+    
     </div>
   )
 }
